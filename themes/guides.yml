@@ -1,48 +1,7 @@
-extends: default
-
-
-nord:
-  polar0: #2e3440
-  polar1: #3b4252
-  polar2: #434c5e
-  polar3: #4c566a
-  snow0: #d8dee9
-  snow1: #e5e9f0
-  snow2: #eceff4
-  frost0: #8fbcbb
-  frost1: #88c0d0
-  frost2: #81a1c1
-  frost3: #5e81ac
-  aurora0: #bf616a
-  aurora1: #d08770
-  aurora2: #ebcb8b
-  aurora3: #a3be8c
-  aurora4: #b48ead
-
-
-font:
-  catalog:
-    merge: true
-    Consola:
-      normal: consola-normal.ttf
-      italic: consola-italic.ttf
-      bold: consola-bold.ttf
-      bold_italic: consola-bold_italic.ttf
-    PlexMono:
-      normal: IBMPlexMono-Regular.ttf
-      italic: IBMPlexMono-Italic.ttf
-      bold: IBMPlexMono-Bold.ttf
-      bold_italic: IBMPlexMono-BoldItalic.ttf
-    RobotoMono:
-      normal: RobotoMono-Regular.ttf
-      italic: RobotoMono-Italic.ttf
-      bold: RobotoMono-Bold.ttf
-      bold_italic: RobotoMono-BoldItalic.ttf
-    Roboto:
-      normal: Roboto\regular.ttf
-      italic: Roboto\italic.ttf
-      bold: Roboto\bold.ttf
-      bold_italic: Roboto\bold-italic.ttf
+extends:
+  - default
+  - ./colors.yml
+  - ./fonts.yml
 
 
 media: print
@@ -68,6 +27,49 @@ table:
   cell:
     padding: [0, 5, 0, 4]
   head:
-    background-color: $nord-frost3
+    background-color: $clrscc-teal
 
 
+list:
+  item-spacing: 2
+
+
+role:
+  black-em:
+    background-color: #111111
+    font-color: #ffffff
+    font-style: bold
+  blue-em:
+    font-color: $clrscc-blue
+    font-style: bold
+  brown-em:
+    font-color: #4f2500
+    font-style: bold
+  gold-em:
+    font-color: #f5cd46
+    font-style: bold
+  gray-em:
+    font-color: #999999
+    font-style: bold
+  green-em:
+    font-color: $clrscc-green
+    font-style: bold
+  orange-em:
+    font-color: $clrscc-orange
+    font-style: bold
+  purple-em:
+    font-color: $clrscc-purple
+    font-style: bold
+  red-em:
+    font-color: $clrscc-red
+    font-style: bold
+  silver-em:
+    font-color: $clrscc-silver
+    font-style: bold
+  yellow-em:
+    font-color: $clrscc-yellow
+    font-style: bold
+
+  lightblue-em:
+    font-color: #8da7ff
+    font-style: bold

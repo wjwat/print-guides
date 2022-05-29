@@ -1,0 +1,23 @@
+font:
+  catalog:
+    merge: true
+    Consola:
+      normal: consola-normal.ttf
+      italic: consola-italic.ttf
+      bold: consola-bold.ttf
+      bold_italic: consola-bold_italic.ttf
+    PlexMono:
+      normal: IBMPlexMono-Regular.ttf
+      italic: IBMPlexMono-Italic.ttf
+      bold: IBMPlexMono-Bold.ttf
+      bold_italic: IBMPlexMono-BoldItalic.ttf
+    RobotoMono:
+      normal: RobotoMono-Regular.ttf
+      italic: RobotoMono-Italic.ttf
+      bold: RobotoMono-Bold.ttf
+      bold_italic: RobotoMono-BoldItalic.ttf
+    Roboto:
+      normal: Roboto\regular.ttf
+      italic: Roboto\italic.ttf
+      bold: Roboto\bold.ttf
+      bold_italic: Roboto\bold-italic.ttf
